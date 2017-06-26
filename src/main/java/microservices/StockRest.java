@@ -85,12 +85,13 @@ public class StockRest {
             this.success = success;
         }
     }
+
+
     @XmlRootElement
     public static class OrderRequest {
         @XmlElement  String productCode;
         @XmlElement  Long orderId;
-        @XmlElement
-        int qty;
+        @XmlElement int qty;
 
 //        public String getProductCode() {
 //            return productCode;
